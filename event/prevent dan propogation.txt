@@ -1,0 +1,5 @@
+preventDefault itu berguna untuk menghentikan aksi default yang dimiliki oleh 
+elment html
+
+kalo stopPropagation itu untuk menstop gelembung atau aksi yang ada pada parent 
+nya.
