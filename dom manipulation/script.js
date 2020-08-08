@@ -30,3 +30,35 @@ const li2 = document.querySelector("section#b ul li:nth-child(2");
 
 ul.insertBefore(liBaru,li2)
 
+
+
+
+
+const link = document.querySelector('#a a');
+
+// jadi kita menghapus link yang ada di sectionA
+
+// untuk mengganti child kita harus menangkap parent nodeny
+
+sectionA.removeChild(link);
+
+const sectionB = document.querySelector('#b');
+const p4 = sectionB.querySelector('p');
+
+
+const h2 = document.createElement('h2');
+const th2 = document.createTextNode('h2 baru');
+
+h2.appendChild(th2);
+
+// jadi h2 akan mereplace atau menggantikan p4
+sectionB.replaceChild(h2, p4);
+
+
+
+
+
+
+
+
+
